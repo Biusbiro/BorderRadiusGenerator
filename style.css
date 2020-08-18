@@ -1,0 +1,74 @@
+.container{
+    padding: 10px;
+    height: -webkit-fill-available;
+}
+
+.menu-top{
+    background-color: rgb(77, 77, 77);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.button-top{
+    background-color: rgb(121, 121, 121);
+    border-radius: 4px;
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content-center{
+    padding: 10px;
+}
+
+.pannel{
+    text-align: center;
+    padding: 10px;
+}
+
+.panel-side{
+    min-width: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.pannel-control-tools{
+    padding: 10px;
+}
+
+.input-tool{
+    float: left;
+}
+
+.pannel-card-result{
+    padding: 10px;
+}
+
+.pannel-card-code{
+    background-color: rgb(82, 82, 82);
+    padding: 10px;
+}
+
+.publicity{
+    padding: 10px;
+    text-align: center;
+}
+
+.rectangle{
+    background-color: rgb(121, 121, 121);
+    border: black 3px solid;
+    padding: 65px;
+}
+
+.code-box{
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    color: #383838;
+    font-family: monospace;
+    text-align: left;
+}
