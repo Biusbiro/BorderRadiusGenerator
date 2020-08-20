@@ -1,6 +1,18 @@
 function masterChange() {
     var value = document.getElementById("master").value;
-    document.getElementById("").innerHTML = value;
+    var TopLeft = document.getElementById("top-left");
+    var TopRight = document.getElementById("top-right");
+    var BottomLeft = document.getElementById("bottom-left");
+    var BottomRight = document.getElementById("bottom-right");
+    console.log("valor antes: " + TopLeft)
+    TopLeft.value = value;
+    TopRight.value = value;
+    BottomLeft.value = value;
+    BottomRight.value = value;
+    topLeftChange();
+    topRightChange();
+    bottomLeftChange();
+    bottomRightChange();
 }
 
 function topLeftChange() {

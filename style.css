@@ -1,5 +1,4 @@
 .container{
-    padding: 10px;
     height: -webkit-fill-available;
 }
 
@@ -7,7 +6,12 @@
     background-color: rgb(77, 77, 77);
     border-radius: 8px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+}
+
+.menu-top a{
+    color: #383838;
+    font-weight: bold;
 }
 
 .button-top{
@@ -16,6 +20,15 @@
     display: inline-block;
     margin: 3px;
     padding: 10px;
+}
+
+.range-label{
+    font-size: 11px;
+    font-family: monospace;
+}
+
+.label-size{
+    width: 30px;
 }
 
 .content{
@@ -71,4 +84,5 @@
     color: #383838;
     font-family: monospace;
     text-align: left;
+    width: 275px;
 }

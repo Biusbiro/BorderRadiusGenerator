@@ -5,25 +5,30 @@
     <body>
         <div class="container">
             <div class="menu-top">
-                <div class="button-top">button 01</div>
-                <div class="button-top">button 02</div>
+                <a href="https://github.com/Biusbiro/BorderRadiusGenerator" target="blank"><div class="button-top">Github</div></a>
+                <a href="https://biu.net.br/" target="blank"><div class="button-top">Outros projetos</div></a>
             </div>
             <div class="pannel">
                 <div class="panel-side">
                     <div class="pannel-control-tools">
                         <div class="range-tool">
-                            <input id="master" type="range" value="0" oninput="masterChange()">
+                            <div class="range-label">All</div>
+                            <input type="text" value="0"></input><input id="master" type="range" value="0" oninput="masterChange()">
                         </div>
                         <div class="range-tool">
+                            <div class="range-label">Top Left</div>
                             <input id="top-left" type="range" value="0" oninput="topLeftChange()">
                         </div>
                         <div class="range-tool">
+                            <div class="range-label">Top Right</div>
                             <input id="top-right" type="range" value="0" oninput="topRightChange()">
                         </div>
                         <div class="range-tool">
+                            <div class="range-label">Bottom Left</div>
                             <input id="bottom-left" type="range" value="0" oninput="bottomLeftChange()">
                         </div>
                         <div class="range-tool">
+                            <div class="range-label">Bottom Right</div>
                             <input id="bottom-right" type="range" value="0" oninput="bottomRightChange()">
                         </div>
                     </div>
@@ -34,17 +39,19 @@
                     </div>
                     <div class="pannel-card-code">
                         <div class="code-box">
-                            <br>.rectangle{
-                            <br>&nbsp&nbsp&nbsp&nbsp border-top-right-radius: <spam id="topRight">0</spam>px;
-                            <br>&nbsp&nbsp&nbsp&nbsp border-top-left-radius: <spam id="topLeft">0</spam>px;
-                            <br>&nbsp&nbsp&nbsp&nbsp border-bottom-right-radius: <spam id="bottomRight">0</spam>px;
-                            <br>&nbsp&nbsp&nbsp&nbsp border-bottom-left-radius: <spam id="bottomLeft">0</spam>px;
+                            .rectangle{
+                            <br>&nbsp&nbsp&nbsp border-top-right-radius: <spam id="topRight">0</spam>px;
+                            <br>&nbsp&nbsp&nbsp border-top-left-radius: <spam id="topLeft">0</spam>px;
+                            <br>&nbsp&nbsp&nbsp border-bottom-right-radius: <spam id="bottomRight">0</spam>px;
+                            <br>&nbsp&nbsp&nbsp border-bottom-left-radius: <spam id="bottomLeft">0</spam>px;
                             <br>}
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="publicity">publitity</div>
+            <div class="publicity">
+                <script data-ad-client="ca-pub-6470465931890923" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            </div>
         </div>
         <script type="text/javascript" src="javascript.js"></script>
     </body>
