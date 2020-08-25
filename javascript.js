@@ -1,10 +1,11 @@
 function masterChange() {
+    var NumberMaster = document.getElementById("number-master");
     var value = document.getElementById("master").value;
     var TopLeft = document.getElementById("top-left");
     var TopRight = document.getElementById("top-right");
     var BottomLeft = document.getElementById("bottom-left");
     var BottomRight = document.getElementById("bottom-right");
-    console.log("valor antes: " + TopLeft)
+    NumberMaster.value = value;
     TopLeft.value = value;
     TopRight.value = value;
     BottomLeft.value = value;
@@ -45,16 +46,24 @@ function bottomRightChange() {
 
 function changeBorderRadiusBottomLeft(rectangle, value) {
     rectangle.style.borderBottomLeftRadius = value + "px";
+    var NumberBottomLeft = document.getElementById("number-bottom-left");
+    NumberBottomLeft.value = value;
 }
 
 function changeBorderRadiusBottomRight(rectangle, value) {
     rectangle.style.borderBottomRightRadius = value + "px";
+    var NumberBottomRight = document.getElementById("number-bottom-right");
+    NumberBottomRight.value = value;
 }
 
 function changeBorderRadiusTopLeft(rectangle, value) {
     rectangle.style.borderTopLeftRadius = value + "px";
+    var NumberTopLeft = document.getElementById("number-top-left");
+    NumberTopLeft.value = value;
 }
 
 function changeBorderRadiusTopRight(rectangle, value) {
     rectangle.style.borderTopRightRadius = value + "px";
+    var NumberTopRight = document.getElementById("number-top-right");
+    NumberTopRight.value = value;
 }
